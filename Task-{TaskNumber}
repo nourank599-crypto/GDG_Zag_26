@@ -1,0 +1,131 @@
+<!DOCTYBE html>
+<html>
+<head>
+<body>
+<h1> Basic HTML Form Elements </h1>
+<form>
+<fieldset>
+<legend> Petsonal Information </legend>
+<div>
+<label for="user"> Name(text):</label>
+<input type="text" id="user">
+</div>
+</fieldset>
+<fieldset>
+<legend>Contact & Security</legend>
+<div>
+<label for="user">Email:</label>
+<input type="text" id="user" > 
+</div>
+<div>
+<label for="user">Passward:</label> 
+<input type="passward" id="user"  maxlength="12"required>
+</div>
+</fieldset>
+<fieldset>
+<legend>Preference</legend>
+<div>
+<label for="user"> Favourite Color:</label>
+<input type="color">
+
+</div>
+</fieldset>
+<fieldset>
+<legend> Range & Options</legend>
+<div>
+<label for="user">Volume(Range 0-100):</label>
+<input type="range" step="20" min="0" max="100" value="60">
+</div>
+<br>
+<br>
+<br>
+
+<label for="user">Select your favourite pet:</label>
+<br>
+<label for="Dog">Dog </label>
+<input type="radio" value ="Dog">
+<br>
+<label for="Cat">Cat</label>
+<input type="radio" value="Cat"</label>
+<br>
+<label for="Bird" >Bird </label>
+<input type="radio" >
+<br>
+<br>
+<br>
+<label for="user"> Intersts(Check all that apply):</label>
+<br>
+<label for="coding"> Coding</label>
+<input type="checkbox" name="coding" value="coding">
+<br>
+<label for="Music">Music </label>
+<input type="Checkbox" >
+<br>
+<label for="Travel"> Travel </label>
+<input type="Checkbox">
+</div>
+</fieldset>
+<fieldset>
+<legend>Selection</legend>
+<div>
+<label for="user">Choose a Countery:</label>
+<select name="Country" id="Country">
+<option value="United Kingdom"> United Kingdom </option>
+<option value="Egypt"> Egypt </option>
+</select>
+<br>
+</div>
+</fieldset>
+<fieldset>
+<legend> Comments </legend>
+<label for="user"> Your Comments(Textarea):</label>
+<br>
+<textarea cols="30" rows="5"> </textarea>
+</div>
+</fieldset>
+<fieldset>
+<legend>File Upload</legend>
+<div>
+<label for="user">Upload a File:</label>
+<input type="file">
+</div>
+</fieldset>
+<fieldset>
+<legend>Specialized Text Inputs</legend>
+<div>
+<label for="user">Search this site:</label>
+<input type="search">
+<br>
+<br>
+<label for="user">Your Website URL:</label>
+<input type="url" placeholder="https://example.com">
+</div>
+</fieldset>
+<fieldset>
+<legend>Date & Time</legend>
+<div>
+<label for="birthday">Date:</label>
+<input type="date" name="birthday" id="birthday" >
+<br>
+<br>
+<label for="month">Month:</label>
+<input type="month">
+<br>
+<br>
+<label for="time">Time:</label>
+<input type="time">
+</div>
+</fieldset>
+<fieldset>
+<legend>Datalist(Suggestions)</legend>
+<div>
+<label for="user">Choose a Browser (with suggestion):</label>
+<input list="browser">
+</div>
+</fieldset>
+<br>
+<button> Submit Form </button> <button> Clear Form</button>
+</form>
+</body>
+</head>
+</html>
